@@ -35,7 +35,7 @@ Begin
             return $true
         }
 
-        $0 = 'C:\Program Files\Microsoft Visual Studio\2022'
+        $0 = 'D:\Program Files\Microsoft Visual Studio\2022'
         if (FindVS $0) { return $true }
 
         $0 = 'C:\Program Files (x86)\Microsoft Visual Studio\2019'
